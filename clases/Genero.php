@@ -21,6 +21,5 @@ class Genero
     {
         return $this->nombre;
     }
-
     
 }
