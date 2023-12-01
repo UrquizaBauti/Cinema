@@ -53,8 +53,10 @@ if (isset($_SESSION['usuario'])) {
                     <form action="borrar_pelicula.php" method="post">
                         <input type="number" name="id_pelicula" hidden value=<?php echo $_GET["id_pelicula"] ?>>
                         <input type="number" name="id_usuario" hidden value=<?php echo $_GET["id_usuario"] ?>>
-                        <input type="submit" value="borrar" class="btn btn-primary">
+                        <input type="submit" value="Borrar" class="btn btn-primary">
+                        <button type="button" class="btn btn-secondary" onclick="window.location.href='administrador.php'">Cancelar</button>
                     </form>
+                    
                 </div>
             </div>
         </div>
